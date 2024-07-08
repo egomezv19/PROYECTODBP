@@ -79,10 +79,10 @@ form button,
   padding: 10px 20px;
   margin: 5px;
   border: none;
-  border-radius: 25px; /* Botones más redondeados */
+  border-radius: 25px; 
   cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s ease; /* Suave transición para hover */
+  transition: background-color 0.3s ease; 
 }
 
 form button:hover, 
@@ -97,10 +97,10 @@ form button:hover,
   padding: 10px 20px;
   margin: 5px;
   border: none;
-  border-radius: 25px; /* Botones más redondeados */
+  border-radius: 25px; 
   cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s ease; /* Suave transición para hover */
+  transition: background-color 0.3s ease; 
 }
 
 .home-page button:hover {
