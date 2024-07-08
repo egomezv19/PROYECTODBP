@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../components/AuthContext';  // Asegúrate de que la ruta sea correcta
-import LogoutButton from '../components/LogoutButton';  // Asegúrate de que la ruta sea correcta
+import { useAuth } from '../components/AuthContext'; 
+import LogoutButton from '../components/LogoutButton';  
 
 const NavBar = () => {
   const { token } = useAuth();
@@ -23,7 +23,9 @@ const NavBar = () => {
           </>
         ) : (
           <>
-            
+            <li>
+              <Link to={`/user/${userId}`}>Profile</Link> {/* Agregar enlace al perfil del usuario */}
+            </li>
             <li>
               <LogoutButton />
             </li>

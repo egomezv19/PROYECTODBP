@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from './AuthContext';  // Asegúrate de que la ruta sea correcta
+import { useAuth } from '../components/AuthContext';  
 import { useNavigate } from 'react-router-dom';
 
 const LogoutButton = () => {

@@ -45,8 +45,9 @@ const Register = () => {
           <input type="checkbox" checked={isAdmin} onChange={(e) => setIsAdmin(e.target.checked)} />
         </div>
         <button type="submit">Register</button>
+        <button className="home-page-button" onClick={() => navigate('/login')}>Go to Login</button>
       </form>
-      <button onClick={() => navigate('/login')}>Go to Login</button>
+      
     </div>
   );
 }
